@@ -5,9 +5,11 @@ If you are here to see my work, have a look at these projects.
 #### Content
 - Dynamic Particle Simulation on GPU: Bachelor Project using CUDA to implement a PIC MCC simulation.
 - Otter Knight YouTube Channel.
-- Guildmaster Digital Prototype: A prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting.
-- Gorillas: Small school project using JavaFX to make a game inspired by the classic Gorillas game. (TBA)
-- TestChamber: A small 2D Puzzle Platformer. (TBA)
+- Guildmaster Digital Prototype: Prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting.
+- Gorillas: Small school project using JavaFX to make a game inspired by the classic Gorillas game.
+- Hexagoani: Unity game inspired by 2048.
+- TestChamber: 2D Puzzle Platformer made in Unity. (TBA)
+- Unity Utility Package: Small custom code-package for Unity.
 
 ## Dynamic Particle Simulation on GPU
 https://github.com/MagnusMouritzen/particle-simulation
@@ -41,3 +43,26 @@ I wrote all the code except for the API and direct interactions with it. I also 
 The game underwent many, many development cycles including design discussions, very rapid mini-prototypes played on paper with tokens, a larger paper-prototype tested on a dozen different players, and finally this digital prototype, which itself has gone through many cycles according to playtest results.
 
 The development taught us a lot, especially about the concept of prototyping to answer specific questions. This prototype is a very bloated, general one, and did in the end take too much time for what it provides. Finally, if we were to make this into a proper game, we have now learned of many ways in which it should be changed.
+
+## Gorillas
+https://github.com/MagnusMouritzen/gorillas
+
+For a three-week university course, me and two others developed a game inspired by the classic Gorillas using JavaFX.
+
+The implementation consists of three distinct parts, one of them being a barebones implementation of an "engine" inspired by Unity. It features common game design patterns such as an Update loop and a Component system, and a very simple collision and "rendering" system.
+
+I primarily worked on the engine and the implementation of the game itself. I barely touched the GUI.
+
+## Hexagoani
+https://github.com/MagnusMouritzen/hexagoani
+
+This small project is a hexagonal version of the mobile game 2048. It is made completely by myself in Unity.
+
+For me, the most interesting part was the implementation of the Hexagon data structure.
+
+## Unity Utility Package
+https://github.com/MagnusMouritzen/utility-package
+
+This is a collection of C# code I often use in various Unity project. It is structured such that it can be imported to Unity as a package.
+
+Much of it is classes with associated property drawers, some of them from my Youtube channel. The rest is mostly useful static methods.
