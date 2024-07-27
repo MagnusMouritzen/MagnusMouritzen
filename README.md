@@ -3,11 +3,20 @@
 If you are here to see my work, have a look at these projects.
 
 #### Content
+- Dynamic Particle Simulation on GPU: Bachelor Project using CUDA to implement a PIC MCC simulation.
 - Otter Knight YouTube Channel.
-- TestChamber: A small 2D Puzzle Platformer. (TBA)
-- Guildmaster Digital Prototype: A prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting. (TBA)
-- Dynamic Particle Simulation on GPU: Bachelor Project using CUDA to implement a Particle in Cell simulation using Monte-Carlo Collisions. (TBA)
+- Guildmaster Digital Prototype: A prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting.
 - Gorillas: Small school project using JavaFX to make a game inspired by the classic Gorillas game. (TBA)
+- TestChamber: A small 2D Puzzle Platformer. (TBA)
+
+## Dynamic Particle Simulation on GPU
+https://github.com/MagnusMouritzen/particle-simulation
+
+My bachelor project - made with [Johannes Poulsen](https://github.com/JohannesPoulsen) is a GPU implementation of a Particle in Cell simulation using Monte-Carlo Collisions. It is written in CUDA (C++) and is made to be run on the high-performance computers of Technical University of Denmark.
+
+The project focuses on exploration of the performance differences of various scheduler paradigms given varying conditions. The simulation features random collisions with varying frequencies, dynamic addition and subtraction of particles, as well as the implementation of a grid of cells to be used with a poisson solver.
+
+The [repository](https://github.com/MagnusMouritzen/particle-simulation) contains the report and slides from the defence. The [branch with the submitted code](https://github.com/MagnusMouritzen/particle-simulation/tree/final_branch) includes many scheduler tests showcasing basic paradigm differences.
 
 ## Otter Knight Youtube Channel
 https://www.youtube.com/@Otter_Knight
@@ -17,3 +26,18 @@ A YouTube channel made by myself and a friend featuring a handful of tutorials o
 For all the videos, I planned them, made the code and projects, wrote the audio script, edited the audio, recorded the visuals, and usually also recorded the audio. My friend handled all the video editing and recorded the audio for one of them.
 
 The code for all the [Editor Scripting videos](https://youtube.com/playlist?list=PLqy--wDEnoVIxVmP_V6RXFg-tc9mVlFgX&si=iGU2nAX2CtD7KK_A) can be found [here](https://github.com/MagnusMouritzen/unity-editor-scripting).
+
+## Guildmaster Digital Prototype
+https://otter-knight-studio.itch.io/guildmaster-demo
+
+I led a project involving three other developrs to create this prototype of a game idea. It is made with C# in Unity. 
+
+Its most noteworthy feature is the usage of a Large Language Model to dynamically generate dialogue between characters. This is done by communicating with an API written in Python (Flask), which is hosted on my website. Each character is represented by a fine-tuned ChatGPT model to give the characters unique mannerisms and ways of expression.
+
+The game furthermore features a (perhaps too) complex personality system based on the HEXACO model, tweaked to suit gameplay needs and the fantasy theme.
+
+I wrote all the code except for the API and direct interactions with it. I also did nearly all the Unity-relevant work. Others wrote the quests, developed the characters and their models, wrote the API and connections, generated the images (with AI), and balanced the game.
+
+The game underwent many, many development cycles including design discussions, very rapid mini-prototypes played on paper with tokens, a larger paper-prototype tested on a dozen different players, and finally this digital prototype, which itself has gone through many cycles according to playtest results.
+
+The development taught us a lot, especially about the concept of prototyping to answer specific questions. This prototype is a very bloated, general one, and did in the end take too much time for what it provides. Finally, if we were to make this into a proper game, we have now learned of many ways in which it should be changed.
