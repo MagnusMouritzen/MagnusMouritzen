@@ -6,6 +6,7 @@ If you are here to see my work, have a look at these projects.
 - Dynamic Particle Simulation on GPU: Bachelor Project using CUDA to implement a PIC MCC simulation.
 - Otter Knight YouTube Channel.
 - Guildmaster Digital Prototype: Prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting.
+- Zupply API: Python REST-API for the Zupply company.
 - Gorillas: Small school project using JavaFX to make a game inspired by the classic Gorillas game.
 - Hexagoani: Unity game inspired by 2048.
 - TestChamber: 2D Puzzle Platformer made in Unity. (TBA)
@@ -43,6 +44,13 @@ I wrote all the code except for the API and direct interactions with it. I also 
 The game underwent many, many development cycles including design discussions, very rapid mini-prototypes played on paper with tokens, a larger paper-prototype tested on a dozen different players, and finally this digital prototype, which itself has gone through many cycles according to playtest results.
 
 The development taught us a lot, especially about the concept of prototyping to answer specific questions. This prototype is a very bloated, general one, and did in the end take too much time for what it provides. Finally, if we were to make this into a proper game, we have now learned of many ways in which it should be changed.
+
+## Zupply API
+As a university project, me and two others worked with [Zupply](https://www.zupply.site/) to build two REST-APIs and a corresponding front-end to be used as part of their platform for their customers.
+
+I worked on the APIs and corresponding databases, but not the front-end. The databases were made in MariaDB and the APIs were written in Python using Flask.
+
+Unfortunately I cannot show any of it, as Zupply holds all the rights to the code.
 
 ## Gorillas
 https://github.com/MagnusMouritzen/gorillas
