@@ -62,6 +62,7 @@ The implementation consists of three distinct parts, one of them being a barebon
 I primarily worked on the engine and the implementation of the game itself. I barely touched the GUI.
 
 ## Hexagoani
+https://otter-knight-studio.itch.io/hexagoani
 https://github.com/MagnusMouritzen/hexagoani
 
 This small project is a hexagonal version of the mobile game 2048. It is made completely by myself in Unity.
