@@ -16,7 +16,7 @@ https://github.com/MagnusMouritzen/particle-simulation
 
 My bachelor project is a GPU implementation of a Particle in Cell simulation using Monte-Carlo Collisions. It is written in CUDA (C++) and is made to be run on the high-performance computers of Technical University of Denmark.
 
-The project focuses on exploration of the performance differences of various scheduler paradigms given varying conditions. This is quantified with extensive benchmarks and NVIDIA Nsight, the results of which were extensively analysed. The simulation features random collisions with varying frequencies, dynamic addition and subtraction of particles, as well as the implementation of a grid of cells to be used with a poisson solver.
+The project focuses on exploration of the performance differences of various scheduler paradigms given varying conditions. This is quantified with extensive benchmarks and NVIDIA Nsight, the results of which were thoroughly analysed. The simulation features random collisions with varying frequencies, dynamic addition and subtraction of particles, as well as the implementation of a grid of cells to be used with a poisson solver.
 
 The [repository](https://github.com/MagnusMouritzen/particle-simulation) contains the report and slides from the defence. The [branch with the submitted code](https://github.com/MagnusMouritzen/particle-simulation/tree/final_branch) includes many scheduler tests showcasing basic paradigm differences.
 
@@ -46,7 +46,7 @@ The game underwent many agile development cycles including design discussions, v
 
 Its most noteworthy feature is the usage of a Large Language Model to dynamically generate dialogue between characters. This is done by communicating with an API written in Python (Flask), which is hosted on my website. Each character is represented by a fine-tuned ChatGPT model to give the characters unique mannerisms and ways of expression. The API is further utilised in editor-tools for content creation. Notably it can be used to prompt the LLM to write specfici parts of a quest given the context of the quest so far.
 
-The game furthermore features a complex personality system based on the HEXACO model, tweaked to suit gameplay needs and the fantasy theme.
+The game additionally features a complex personality system based on the HEXACO model, tweaked to suit gameplay needs and the fantasy theme.
 
 I wrote all the code except for the API and direct interactions with it. I also did nearly all the Unity-relevant work. Others wrote the quests, developed the characters and their models, wrote the API and connections, generated the images (with AI), and balanced the game.
 
@@ -76,6 +76,7 @@ Technologies: Java, JavaFX
 
 ## Hexagoani
 https://otter-knight-studio.itch.io/hexagoani
+
 https://github.com/MagnusMouritzen/hexagoani
 
 <img src="Hexagoani.png" alt="Hexagoani Cover" width="200"/>
