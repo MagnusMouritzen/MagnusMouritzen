@@ -3,13 +3,13 @@
 If you are here to see my work, have a look at these projects.
 
 #### Content
-- [Dynamic Particle Simulation on GPU](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#dynamic-particle-simulation-on-gpu): Bachelor Project using CUDA to implement a PIC MCC simulation.
-- [Otter Knight YouTube Channel](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#otter-knight-youtube-channel): Advanced programming tutorials.
-- [Guildmaster Digital Prototype](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#guildmaster-digital-prototype): Prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting.
-- [Zupply API](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#zupply-api): Python REST-API for the Zupply company.
-- [Gorillas](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#gorillas): Small school project using JavaFX to make a game inspired by the classic Gorillas game.
-- [Hexagoani](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#hexagoani): Unity game inspired by 2048.
-- [Unity Utility Package](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#unity-utility-package): Small custom code-package for Unity.
+- [Dynamic Particle Simulation on GPU](#dynamic-particle-simulation-on-gpu): Bachelor Project using CUDA to implement a PIC MCC simulation.
+- [Otter Knight YouTube Channel](#otter-knight-youtube-channel): Advanced programming tutorials.
+- [Guildmaster Digital Prototype](#guildmaster-digital-prototype): Prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting.
+- [Zupply API](#zupply-api): Python REST-API for the Zupply company.
+- [Gorillas](#gorillas): Small school project using JavaFX to make a game inspired by the classic Gorillas game.
+- [Hexagoani](#hexagoani): Unity game inspired by 2048.
+- [Unity Utility Package](#unity-utility-package): Small custom code-package for Unity.
 
 ## Dynamic Particle Simulation on GPU
 https://github.com/MagnusMouritzen/particle-simulation
