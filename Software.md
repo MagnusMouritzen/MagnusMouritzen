@@ -55,7 +55,7 @@ https://www.youtube.com/@Otter_Knight
 
 <img src="OK.png" alt="Otter Knight Logo" width="200"/>
 
-Advanced Unity programming utorials on [Editor Scripting in Unity](https://youtube.com/playlist?list=PLqy--wDEnoVIxVmP_V6RXFg-tc9mVlFgX&si=iGU2nAX2CtD7KK_A) as well as one on [Bit Manipulation](https://youtu.be/gZLhh9uJNAs?si=BP0BRAzJ-4IQciLA).
+Advanced Unity programming tutorials on [Editor Scripting in Unity](https://youtube.com/playlist?list=PLqy--wDEnoVIxVmP_V6RXFg-tc9mVlFgX&si=iGU2nAX2CtD7KK_A) as well as one on [Bit Manipulation](https://youtu.be/gZLhh9uJNAs?si=BP0BRAzJ-4IQciLA).
 
 The channel was started with a friend. For all the videos, I planned them, made the code and projects, wrote the audio script, edited the audio, recorded the visuals, and usually also recorded the audio. My friend handled all the video editing and recorded the audio for one of them.
 
@@ -76,6 +76,7 @@ Technologies: Java, JavaFX
 
 ## Hexagoani
 https://otter-knight-studio.itch.io/hexagoani
+
 https://github.com/MagnusMouritzen/hexagoani
 
 <img src="Hexagoani.png" alt="Hexagoani Cover" width="200"/>
