@@ -3,14 +3,13 @@
 If you are here to see my work, have a look at these projects.
 
 #### Content
-- Dynamic Particle Simulation on GPU: Bachelor Project using CUDA to implement a PIC MCC simulation.
-- Otter Knight YouTube Channel.
-- Guildmaster Digital Prototype: Prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting.
-- Zupply API: Python REST-API for the Zupply company.
-- Gorillas: Small school project using JavaFX to make a game inspired by the classic Gorillas game.
-- Hexagoani: Unity game inspired by 2048.
-- TestChamber: 2D Puzzle Platformer made in Unity. (TBA)
-- Unity Utility Package: Small custom code-package for Unity.
+- [Dynamic Particle Simulation on GPU](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#dynamic-particle-simulation-on-gpu): Bachelor Project using CUDA to implement a PIC MCC simulation.
+- [Otter Knight YouTube Channel](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#otter-knight-youtube-channel): Advanced programming tutorials.
+- [Guildmaster Digital Prototype](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#guildmaster-digital-prototype): Prototype for an LLM-powered game of managing an adventurer's guild in a fantasy setting.
+- [Zupply API](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#zupply-api): Python REST-API for the Zupply company.
+- [Gorillas](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#gorillas): Small school project using JavaFX to make a game inspired by the classic Gorillas game.
+- [Hexagoani](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#hexagoani): Unity game inspired by 2048.
+- [Unity Utility Package](https://github.com/MagnusMouritzen/MagnusMouritzen/edit/main/README.md#unity-utility-package): Small custom code-package for Unity.
 
 ## Dynamic Particle Simulation on GPU
 https://github.com/MagnusMouritzen/particle-simulation
@@ -21,6 +20,8 @@ The project focuses on exploration of the performance differences of various sch
 
 The [repository](https://github.com/MagnusMouritzen/particle-simulation) contains the report and slides from the defence. The [branch with the submitted code](https://github.com/MagnusMouritzen/particle-simulation/tree/final_branch) includes many scheduler tests showcasing basic paradigm differences.
 
+Technologies: C++, CUDA, HPC, Python
+
 ## Otter Knight Youtube Channel
 https://www.youtube.com/@Otter_Knight
 
@@ -30,14 +31,16 @@ For all the videos, I planned them, made the code and projects, wrote the audio 
 
 The code for all the [Editor Scripting videos](https://youtube.com/playlist?list=PLqy--wDEnoVIxVmP_V6RXFg-tc9mVlFgX&si=iGU2nAX2CtD7KK_A) can be found [here](https://github.com/MagnusMouritzen/unity-editor-scripting).
 
+Technologies: C#, Unity, Reaper
+
 ## Guildmaster Digital Prototype
 https://otter-knight-studio.itch.io/guildmaster-demo
 
 I led a project involving three other developrs to create this prototype of a game idea. It is made with C# in Unity. 
 
-Its most noteworthy feature is the usage of a Large Language Model to dynamically generate dialogue between characters. This is done by communicating with an API written in Python (Flask), which is hosted on my website. Each character is represented by a fine-tuned ChatGPT model to give the characters unique mannerisms and ways of expression.
+Its most noteworthy feature is the usage of a Large Language Model to dynamically generate dialogue between characters. This is done by communicating with an API written in Python (Flask), which is hosted on my website. Each character is represented by a fine-tuned ChatGPT model to give the characters unique mannerisms and ways of expression. The API is further utilised in editor-tools for content creation. Notably it can be used to prompt the LLM to write specfici parts of a quest given the context of the quest so far.
 
-The game furthermore features a (perhaps too) complex personality system based on the HEXACO model, tweaked to suit gameplay needs and the fantasy theme.
+The game furthermore features a complex personality system based on the HEXACO model, tweaked to suit gameplay needs and the fantasy theme.
 
 I wrote all the code except for the API and direct interactions with it. I also did nearly all the Unity-relevant work. Others wrote the quests, developed the characters and their models, wrote the API and connections, generated the images (with AI), and balanced the game.
 
@@ -45,12 +48,16 @@ The game underwent many, many development cycles including design discussions, v
 
 The development taught us a lot, especially about the concept of prototyping to answer specific questions. This prototype is a very bloated, general one, and did in the end take too much time for what it provides. Finally, if we were to make this into a proper game, we have now learned of many ways in which it should be changed.
 
+Technologies: C#, Unity, Python, Flask, ChatGPT
+
 ## Zupply API
 As a university project, me and two others worked with [Zupply](https://www.zupply.site/) to build two REST-APIs and a corresponding front-end to be used as part of their platform for their customers.
 
 I worked on the APIs and corresponding databases, but not the front-end. The databases were made in MariaDB and the APIs were written in Python using Flask.
 
 Unfortunately I cannot show any of it, as Zupply holds all the rights to the code.
+
+Technologies: Python, Flask, SQL, MariaDB
 
 ## Gorillas
 https://github.com/MagnusMouritzen/gorillas
@@ -61,6 +68,8 @@ The implementation consists of three distinct parts, one of them being a barebon
 
 I primarily worked on the engine and the implementation of the game itself. I barely touched the GUI.
 
+Technologies: Java, JavaFX
+
 ## Hexagoani
 https://otter-knight-studio.itch.io/hexagoani
 https://github.com/MagnusMouritzen/hexagoani
@@ -69,9 +78,13 @@ This small project is a hexagonal version of the mobile game 2048. It is made co
 
 For me, the most interesting part was the implementation of the Hexagon data structure.
 
+Technologies: C#, Unity
+
 ## Unity Utility Package
 https://github.com/MagnusMouritzen/utility-package
 
 This is a collection of C# code I often use in various Unity project. It is structured such that it can be imported to Unity as a package.
 
 Much of it is classes with associated property drawers, some of them from my Youtube channel. The rest is mostly useful static methods.
+
+Technologies: C#, Unity
