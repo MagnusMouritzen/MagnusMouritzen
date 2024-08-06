@@ -25,6 +25,8 @@ Technologies: C++, CUDA, HPC, Python
 ## Otter Knight Youtube Channel
 https://www.youtube.com/@Otter_Knight
 
+<img src="OK.png" alt="Otter Knight Logo" width="200"/>
+
 Advanced Unity programming utorials on [Editor Scripting in Unity](https://youtube.com/playlist?list=PLqy--wDEnoVIxVmP_V6RXFg-tc9mVlFgX&si=iGU2nAX2CtD7KK_A) as well as one on [Bit Manipulation](https://youtu.be/gZLhh9uJNAs?si=BP0BRAzJ-4IQciLA).
 
 The channel was started with a friend. For all the videos, I planned them, made the code and projects, wrote the audio script, edited the audio, recorded the visuals, and usually also recorded the audio. My friend handled all the video editing and recorded the audio for one of them.
@@ -35,6 +37,8 @@ Technologies: C#, Unity, Reaper
 
 ## Guildmaster Digital Prototype
 https://otter-knight-studio.itch.io/guildmaster-demo
+
+<img src="GM.png" alt="Guildmaster Cover" width="200"/>
 
 I led a group of developers including programmers, a security expert, writers, QA, and many playtesters to create this prototype of a game idea. It is made with C# in Unity. 
 
@@ -62,6 +66,8 @@ Technologies: Python, Flask, SQL, MariaDB, SQLAlchemy
 ## Gorillas
 https://github.com/MagnusMouritzen/gorillas
 
+<img src="Gorillas.png" alt="Gorillas Screenshot" width="200"/>
+
 A simple game engine inspired by Unity was developed in Java. It features common game design patterns such as an Update loop and a Component system, and a very simple collision and "rendering" system. The engine was then used with JavaFX to create a game inspired by the classic Gorillas.
 
 The project was part of a three-week university course where I worked with two others. I primarily worked on the engine and the implementation of the game itself. I barely touched the GUI.
@@ -71,6 +77,8 @@ Technologies: Java, JavaFX
 ## Hexagoani
 https://otter-knight-studio.itch.io/hexagoani
 https://github.com/MagnusMouritzen/hexagoani
+
+<img src="Hexagoani.png" alt="Hexagoani Cover" width="200"/>
 
 This small project is a hexagonal version of the mobile game 2048. It is made completely by myself in Unity.
 
