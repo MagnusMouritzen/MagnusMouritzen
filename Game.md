@@ -20,7 +20,7 @@ I led a group of developers including programmers, a security expert, writers, Q
 
 The game underwent many agile development cycles including design discussions, very rapid mini-prototypes played on paper with tokens, a larger paper-prototype tested on a dozen different players, and finally this digital prototype, which itself has gone through many cycles according to playtest results.
 
-Its most noteworthy feature is the usage of a Large Language Model to dynamically generate dialogue between characters. This is done by communicating with an API written in Python (Flask), which is hosted on my website. Each character is represented by a fine-tuned ChatGPT model to give the characters unique mannerisms and ways of expression. The API is further utilised in editor-tools for content creation. Notably it can be used to prompt the LLM to write specfici parts of a quest given the context of the quest so far.
+Its most noteworthy feature is the usage of a Large Language Model to dynamically generate dialogue between characters. This is done by communicating with an API written in Python (Flask), which is hosted on my website. Each character is represented by a fine-tuned ChatGPT model to give the characters unique mannerisms and ways of expression. The API is further utilised in editor-tools for content creation. Notably it can be used to prompt the LLM to write specific parts of a quest given the context of the quest so far.
 
 The game furthermore features a complex personality system based on the HEXACO model, tweaked to suit gameplay needs and the fantasy theme.
 
