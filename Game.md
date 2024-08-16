@@ -16,7 +16,7 @@ https://otter-knight-studio.itch.io/guildmaster-demo
 
 <img src="GM.png" alt="Guildmaster Cover" width="200"/>
 
-I led a group of developers including programmers, a security expert, writers, QA, and many playtesters to create this prototype of a game idea. It is made with C# in Unity. 
+I led a group of developers including programmers, a security expert, QA, and many playtesters to create this prototype of a game idea. It is made with C# in Unity. 
 
 The game underwent many agile development cycles including design discussions, very rapid mini-prototypes played on paper with tokens, a larger paper-prototype tested on a dozen different players, and finally this digital prototype, which itself has gone through many cycles according to playtest results.
 
@@ -29,6 +29,8 @@ I wrote all the code except for the API and direct interactions with it. I also 
 The development taught us a lot, especially about the concept of prototyping to answer specific questions. This prototype is a very bloated, general one, and did in the end take too much time for what it provides. Finally, if we were to make this into a proper game, we have now learned of many ways in which it should be changed.
 
 Technologies: C#, Unity, Python, Flask, ChatGPT
+
+Team size: 4 developers, 19 testers.
 
 ## Otter Knight Youtube Channel
 https://www.youtube.com/@Otter_Knight
@@ -43,6 +45,8 @@ The code for all the [Editor Scripting videos](https://youtube.com/playlist?list
 
 Technologies: C#, Unity, Reaper
 
+Team size: 2
+
 ## Dynamic Particle Simulation on GPU
 https://github.com/MagnusMouritzen/particle-simulation
 
@@ -54,6 +58,8 @@ The [repository](https://github.com/MagnusMouritzen/particle-simulation) contain
 
 Technologies: C++, CUDA, HPC, Python
 
+Team size: 2
+
 ## Gorillas
 https://github.com/MagnusMouritzen/gorillas
 
@@ -64,6 +70,8 @@ A simple game engine inspired by Unity was developed in Java. It features common
 The project was part of a three-week university course where I worked with two others. I primarily worked on the engine and the implementation of the game itself. I barely touched the GUI.
 
 Technologies: Java, JavaFX
+
+Team size: 3
 
 ## Hexagoani
 https://otter-knight-studio.itch.io/hexagoani
@@ -78,6 +86,8 @@ For me, the most interesting part was the implementation of the Hexagon data str
 
 Technologies: C#, Unity, Reaper
 
+Team size: 1
+
 ## Unity Utility Package
 https://github.com/MagnusMouritzen/utility-package
 
@@ -87,6 +97,8 @@ Much of it is classes with associated property drawers, some of them from my You
 
 Technologies: C#, Unity
 
+Team size: 1
+
 ## Zupply API
 Two REST-APIs with corresponding databases and a front-end were developed for the [Zupply](https://www.zupply.site/) company. This was done as part of a university course.
 
@@ -95,3 +107,5 @@ I worked on the APIs and corresponding databases, but not the front-end. The dat
 Unfortunately I can not show any of it, as Zupply holds all the rights to the code.
 
 Technologies: Python, Flask, SQL, MariaDB, SQLAlchemy
+
+Team size: 3
