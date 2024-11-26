@@ -2,6 +2,8 @@
 
 If you are here to see my work, have a look at these projects.
 
+Check out my more detailed portfolio: https://otterknight.net
+
 #### Content
 - [Dynamic Particle Simulation on GPU](#dynamic-particle-simulation-on-gpu): Using CUDA to implement a PIC MCC simulation.
 - [Otter Knight YouTube Channel](#otter-knight-youtube-channel): Advanced programming tutorials.
